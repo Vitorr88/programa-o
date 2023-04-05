@@ -26,7 +26,7 @@ a{
     /* display flexivel */
     display: flex;
     /* organizado em linha */
-    flex-wrap: wrap;
+    flex-wrap: wrap;<p>ESTADOS UNIDOS</p>
     /* espacamento entre os textos */
     justify-content: space-between;
     /* centralizado */
@@ -79,6 +79,25 @@ a{
     .paragrafo{
         padding: 10px;
         text-align: justify;
+    }
+    .footer{
+        background-color: rgb(241, 234, 234);
+        padding: 15px;
+        color: black;
+        font-size: 30px;
+    }
+
+    .redesSociais{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redeLogo{
+        margin: 10px;
+        padding: 5px;
+        width: 30px;
+        height: auto;
     }
 
     
